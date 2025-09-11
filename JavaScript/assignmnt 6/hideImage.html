@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        #aaa{
+            margin: 50px;
+            height: 50px;
+            width: 200px;
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;
+            align-items: center;
+        }
+    </style>
+   
+</head>
+<body>
+
+    <div>
+        <img id="my-img" src="imagePhoto.jpg" alt="Image" style="height: 300px; width: 300px; ;">
+    </div>
+
+    <div>
+        <button id="aaa" onclick="hideImage()">Hide Image</button>
+    </div>
+
+    <div>
+        <button id="aaa" onclick="showImage()">Show Image</button>
+    </div>
+    <script>
+        function hideImage() {
+            document.getElementById("my-img").style.display = "none";
+        }
+        function showImage(){
+            document.getElementById("my-img").style.display = "block";
+        }
+    </script>
+    
+</body>
+</html>
