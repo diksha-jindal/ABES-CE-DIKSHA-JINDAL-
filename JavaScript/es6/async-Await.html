@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+
+    <script>
+        async function f(){
+            let promise = new Promise((resolve, reject)=>{
+            setTimeout(()=>{
+                resolve("Promise resolved")
+            }, 2000)
+        });
+        let result = await promise; //wait until the promise is resolved
+        alert(result);
+    }
+    f();
+        
+    </script>
+    
+</body>
+</html>
+
+<!--advance version of promise -->
