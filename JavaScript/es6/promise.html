@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script>
+        const mypromise = new Promise((resolve, reject) => {
+            const pswd = "diksha098";
+            if(pswd.length >= 8) {
+                resolve("pswd length is okay");
+            } else {
+                reject("Pswd length is shorter in length");
+            }
+        })
+
+        console.log(mypromise);
+        //how to handle
+        mypromise.then((message) => {
+            console.log(message);
+        })
+        mypromise.catch((err) => {
+            console.log(err);
+        })
+    </script>
+</body>
+</html>
