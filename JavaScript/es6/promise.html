@@ -21,7 +21,10 @@
         })
         mypromise.catch((err) => {
             console.log(err);
+        }).finally(()=>{
+            console.log("Promise is either resolved or rejected");
         })
     </script>
 </body>
 </html>
+<!--  -->
