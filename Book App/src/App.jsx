@@ -1,24 +1,3 @@
-// import React from 'react'
-// import Book from './components/Book'
-// import './App.css'
-// import Nav from './components/Nav'
-// function App() {
-//   return (
-//     <div>
-//       <Nav />
-//       <center>
-//         <div id="aaa">
-//           <Book title="Math" price="400" img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLl1PDJCVU4a8YgxQo5FRpbj5cREf8sjx6w&s" />
-//           <Book title="Physics" price="700" img="https://cdn.iconscout.com/icon/premium/png-256-thumb/physics-book-icon-svg-download-png-1730255.png" />
-//           <Book title="Chemistry" price="800" img="https://png.pngtree.com/png-clipart/20231015/original/pngtree-chemistry-text-book-picture-image_13167835.png" />
-//         </div>
-//       </center>
-//     </div>
-//   )
-// }
-
-// export default App
-
 App.jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -79,30 +58,3 @@ function App() {
 }
 
 export default App;
-
-// src/App.jsx
-// import React from "react";
-// import { Routes, Route } from "react-router-dom";
-// import Nav from "./components/Nav";
-// import Home from "./components/Home";
-// import About from "./components/About";
-// import Books from "./components/Books";
-// import Login from "./components/Login";
-// import Register from "./components/Register";
-
-// function App() {
-//   return (
-//     <div>
-//       <Nav />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/books" element={<Books />} />
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/register" element={<Register />} />
-//       </Routes>
-//     </div>
-//   );
-// }
-
-// export default App;
