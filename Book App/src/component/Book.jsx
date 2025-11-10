@@ -4,11 +4,19 @@ function Book(props) {
 
     const [count, setCount] = useState(0)
     function increment() {
-        setCount(count + 1)
+        if (count < 10) {
+            setCount(count + 1)
+          } else {
+            alert("You can buy a maximum of 10 books only!")
+          }
     }
 
     function decrement() {
-        setCount(count - 1)
+        if (count > 0) {
+            setCount(count - 1)
+          } else {
+            alert("Count cannot be less than 0!")
+          }
     }
     return (
         <div id="book">
