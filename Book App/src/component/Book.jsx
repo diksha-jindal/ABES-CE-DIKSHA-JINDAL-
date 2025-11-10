@@ -18,6 +18,16 @@ function Book(props) {
             alert("Count cannot be less than 0!")
           }
     }
+
+    function addToCart() {
+        if (count > 0) {
+          alert(`${props.title} (${count} pcs) added to cart!`)
+        } else {
+          alert("Please select at least 1 book before adding to cart.")
+        }
+      }
+
+      
     return (
         <div id="book">
             <img src={props.img} alt="" height={170} width={170} />
@@ -29,6 +39,22 @@ function Book(props) {
                 <span>{count}</span>
                 <button onClick={decrement}>-</button>
             </div>
+
+            <button
+        onClick={addToCart}
+        className="cart-btn"
+        style={{
+          marginTop: '10px',
+          backgroundColor: '#0077b6',
+          color: 'white',
+          border: 'none',
+          padding: '8px 16px',
+          borderRadius: '8px',
+          cursor: 'pointer'
+        }}
+      >
+        🛒 Add to Cart
+      </button>
 
         </div>
     )

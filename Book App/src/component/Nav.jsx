@@ -7,8 +7,8 @@ function Nav() {
     <nav className="navbar">
       <h2 className="logo">Book App</h2>
       <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/books">Books</Link></li>
+        {/* <li><Link to="/">Home</Link></li> */}
+        <li><Link to="/books">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/register">Register</Link></li>
