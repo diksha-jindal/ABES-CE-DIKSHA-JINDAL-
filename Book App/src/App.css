@@ -1,4 +1,5 @@
-#aaa{
-    text-align: center;
-    display: flex;
+#aaa {
+  text-align: center;
+  display: flex;
+  margin: auto;
 }

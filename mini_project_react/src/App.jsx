@@ -5,7 +5,7 @@ import Link1 from "./components/Link1";
 function App() {
   return (
     <div>
-      <Link1 />M
+      <Link1 />
     </div>
   );
 }

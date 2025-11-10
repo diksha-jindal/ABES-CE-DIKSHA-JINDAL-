@@ -1,9 +1,6 @@
-#book{
-    border: 5px solid black;  /* red */
-    height: 400px;
+#book {
+    border: 5px solid red;
+    height: 350px;
     width: 300px;
-    background-color: coral;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+    background-color: chocolate;
 }
