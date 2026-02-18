@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    /* background: #003366; */
+    background: rgb(84, 11, 11);
+    /* background-color: antiquewhite; */
+    color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+}
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    padding: 30px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
